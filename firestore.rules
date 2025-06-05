@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /complaints/{docId} {
+      allow read: if true;  // Everyone can read
+      allow create: if request.resource.data.secret == "MY_SECRET_KEY";
+      allow update, delete: if false;
+    }
+  }
+}
