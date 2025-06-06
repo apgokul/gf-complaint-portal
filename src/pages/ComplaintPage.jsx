@@ -205,7 +205,7 @@ function ComplaintPage() {
             <button
               type="button"
               key={idx}
-              className={`text-2xl transition-transform ${mood === idx ? "scale-125" : "opacity-50"
+              className={`text-2xl transition-all duration-200 ease-in-out ${mood === idx ? "scale-125" : "opacity-50"
                 }`}
               onClick={() => setMood(idx)}
             >
