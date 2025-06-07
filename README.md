@@ -44,3 +44,11 @@ service cloud.firestore {
     }
   }
 }
+
+## ❤️ Credits
+
+- Inspired by love, rants, and the power of fun apps
+- Built using [React](https://reactjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/)
+- Real-time database powered by [Firebase Firestore](https://firebase.google.com/)
+- Telegram notifications via [Telegram Bot API](https://core.telegram.org/bots/api)
+- Special thanks to [OpenAI](https://openai.com) for ChatGPT's support during development!
