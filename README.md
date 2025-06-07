@@ -44,6 +44,7 @@ service cloud.firestore {
     }
   }
 }
+```
 
 ## ❤️ Credits
 
